@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Matching Game</title>
+  <meta name="description" content="">
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Pexeso</h1>
+      <div> <h3><span class="time">Time:&nbsp;</span></h3> </div>
+    </header>
+      <section class="score-panel">
+        <ul class="stars"></ul>
+        <span class="moves">0</span> Moves
+        <span class="found">0</span> Found
+        <div class="restart">
+          <i class="fa fa-repeat"></i>
+        </div>
+      </section>
+    <ul class="deck">
+    </ul>
+  </div>
+  <div id="mod" class="modal">
+        <div class="modal-inside">
+          <h1 class="congrats">Congratulations!</h1>
+          <article class="modal-body">
+            <h2>Rating</h2>
+            <div class="starlets"></div>
+          </article>
+          <article class="modal-body">
+            <h2>Time</h2>
+            <div class="timer"></div>
+          </article>
+          <article class="modal-body">
+            <h2>Moves</h2>
+            <div class="moves"></div>
+          </article>
+          <article class="new-game">
+            <h2 class="try-again">Would you like to try again?</h2>
+            <button id="init">Try again!</button>
+            <button id="end">End game</button>
+          </article>
+        </div>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/app.js"></script>
+  <!-- <script src="js/test.js"></script> -->
+
+</body>
+</html>
