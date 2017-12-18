@@ -11,4 +11,4 @@ Player have to find a matching pair clicking on cards within the play board to r
 
 ## Play Pexeso
 
-Play Pexeso on GitHub.io: <>
+Play Pexeso on GitHub.io: https://raebel.github.io/Memory-game/
